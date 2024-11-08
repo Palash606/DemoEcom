@@ -1,0 +1,11 @@
+package com.example.springapp.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class MyRepository {
+
+    static {
+        System.out.println("Repo called....");
+    }
+}
